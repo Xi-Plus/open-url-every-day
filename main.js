@@ -1,4 +1,5 @@
 function main() {
+	openGamer()
 	openLeetCode()
 	openEpic()
 	openSteamEvent()
@@ -6,6 +7,14 @@ function main() {
 }
 
 const today = new Date()
+
+function openGamer() {
+	window.open('https://www.gamer.com.tw/')
+}
+
+function openLeetCode() {
+	window.open('https://leetcode.com/problems/two-sum/')
+}
 
 function openEpic() {
 	if (today.getDay() === 5) {
@@ -19,10 +28,6 @@ function openSteamEvent() {
 
 function openSteamQueue() {
 	window.open('https://store.steampowered.com/explore/')
-}
-
-function openLeetCode() {
-	window.open('https://leetcode.com/problems/two-sum/')
 }
 
 main()
