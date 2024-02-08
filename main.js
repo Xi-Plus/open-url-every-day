@@ -1,8 +1,8 @@
 function main() {
+	openLeetCode()
 	openEpic()
 	openSteamEvent()
-	openSteamQueue()
-	openLeetCode()
+	// openSteamQueue()
 }
 
 const today = new Date()
