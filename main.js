@@ -2,7 +2,7 @@ function main() {
 	openGamer()
 	openLeetCode()
 	openEpic()
-	openSteamEvent()
+	// openSteamEvent()
 	// openSteamQueue()
 }
 
