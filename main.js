@@ -3,7 +3,7 @@ function main() {
 	openLeetCode()
 	openEpic()
 	// openSteamEvent()
-	openSteamQueue()
+	// openSteamQueue()
 }
 
 const today = new Date()
