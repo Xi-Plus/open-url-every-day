@@ -9,7 +9,7 @@ function main() {
 const today = new Date()
 
 function openGamer() {
-	window.open('https://www.gamer.com.tw/')
+	window.open('https://home.gamer.com.tw/homeindex.php')
 }
 
 function openLeetCode() {
