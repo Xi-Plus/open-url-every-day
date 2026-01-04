@@ -17,9 +17,9 @@ function openLeetCode() {
 }
 
 function openEpic() {
-	// if (today.getDay() === 5) {
+	if (today.getDay() === 5) {
 		window.open('https://store.epicgames.com/zh-Hant/free-games')
-	// }
+	}
 }
 
 function openSteamEvent() {
